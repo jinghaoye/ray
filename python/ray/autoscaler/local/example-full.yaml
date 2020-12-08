@@ -35,8 +35,8 @@ docker:
 # Local specific configuration.
 provider:
     type: local
-    head_ip: YOUR_HEAD_NODE_HOSTNAME
-    worker_ips: [WORKER_NODE_1_HOSTNAME, WORKER_NODE_2_HOSTNAME, ... ]
+    head_ip: 128.31.27.227
+    worker_ips: [192.168.100.49]
     # Optional when running automatic cluster management on prem. If you use a coordinator server,
     # then you can launch multiple autoscaling clusters on the same set of machines, and the coordinator
     # will assign individual nodes to clusters as needed.
